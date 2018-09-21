@@ -1,0 +1,17 @@
+% Independent endmembers
+py gr knor
+1 2.7 1
+py gr uv
+% Variables
+x z f
+% Site occupancies
+% MgX		CaX		AlY		CrY
+1-z		z		1-c		c
+3		0		2		0
+0		3		2		0
+3		0		0		2
+%
+3		0		2		0
+0		3		2		0
+0		3		0		2
+%

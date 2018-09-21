@@ -1,0 +1,18 @@
+% Independent endmembers
+en fs mgts fm
+en fs fets fm
+% Variables
+x1 x2 y
+% Site occupancies
+% Fe     Mg	Fe		Mg		Al	Al	Si
+x2    (1-x2)	x1*(1-y)	(1-x1)*(1-y)	y	y	2-y
+0     1 	0		1		0	0	2
+1     0		1		0		0	0	2
+0     1		0		0		1	1	1
+1     0		0		1		0	0	2
+%
+0     1		0		1		0	0	2
+1     0		1		0		0	0	2
+1     0		0		0		1	1	1
+1     0		0		1		0	0	2
+%

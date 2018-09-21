@@ -1,0 +1,21 @@
+% Independent endmembers
+sp herc mrw frw mt
+1 1 1 1 1 
+sp herc mrw frw mft
+% Variables
+x y z a
+% Site occupancies
+% MgA	FeA	SiA	Fe3A    MgB	FeB	AlB	Fe3B
+  x	x	x	x	x	x	x	x
+  1	0	0	0	0	0	2	0
+  0	1	0	0	0	0	2	0
+  0	0	1	0	2	0	0	0
+  0	0	1	0	0	2	0	0
+  0	0	0	1	0	1	0	1  
+%
+  1	0	0	0	0	0	2	0
+  0	1	0	0	0	0	2	0
+  0	0	1	0	2	0	0	0
+  0	0	1	0	0	2	0	0
+  0	0	0	1	1	0	0	1 
+%

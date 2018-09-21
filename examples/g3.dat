@@ -1,0 +1,18 @@
+% Independent endmembers
+py alm gr andr
+py alm gr koh
+% Variables
+x z f
+% Site occupancies
+% MgX		FeX		CaX		AlY		Fe3Y
+(1-x)*(1-z)	x*(1-z)		z		1-f		f
+3		0		0		2		0
+0		3		0		2		0
+0		0		3		2		0
+0		0		3		0		2
+%
+3		0		0		2		0
+0		3		0		2		0
+0		0		3		2		0
+3		0		0		0		2
+%

@@ -1,0 +1,28 @@
+% Independent endmembers
+cenh cfsh di hed cats jd acm kos
+1 1 1.2 1.2 1.9 1 1 1 
+cenh cfsh di hed cats jd cferts ccrts
+% Variables
+x z n m y f c 
+% Site occupancies
+% MgM2	 FeM2	CaM2   NaM2	MgM1    FeM1    AlM1   Fe3M1   CrM1   SiT   AlT
+% The equations on the next line (for tetrahedral site occupancy) are incorrect
+  (1-z-n)*(1-x) (1-z-n)*x z n   m       1-m-y-f-c  y   f       c      1     1
+  1	 0	0      0	1	0	0      0       0      1/2   0
+  0	 1	0      0	0	1	0      0       0      1/2   0
+  0	 0	1      0	1	0	0      0       0      1/2   0
+  0	 0	1      0	0	1	0      0       0      1/2   0
+  0	 0	1      0	0	0	1      0       0      1/4   1/4
+  0	 0	0      1	0	0	1      0       0      1/2   0
+  0	 0	0      1	0	0	0      1       0      1/2   0
+  0	 0	0      1	0	0	0      0       1      1/2   0    
+%
+  1	 0	0      0	1	0	0      0       0      1/2   0
+  0	 1	0      0	0	1	0      0       0      1/2   0
+  0	 0	1      0	1	0	0      0       0      1/2   0
+  0	 0	1      0	0	1	0      0       0      1/2   0
+  0	 0	1      0	0	0	1      0       0      1/4   1/4
+  0	 0	0      1	0	0	1      0       0      1/2   0
+  0	 0	1      0	0	0	0      1       0      1/4   1/4
+  0	 0	1      0	0	0	0      0       1      1/4   1/4
+%

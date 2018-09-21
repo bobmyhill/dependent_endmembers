@@ -1,0 +1,19 @@
+% Independent endmembers
+cen cfs di hed
+1  1 1.2 1.2
+cen cfs cfm di
+% Variables
+x z m
+% Site occupancies
+% MgM2		FeM2		CaM2		MgM1		FeM1  
+  (1-z)*(1-x)   (1-z)*x   	z     		m		1-m
+  1     	0     		0     		1	  	0	
+  0     	1     		0     		0	  	1	
+  0		0     		1     		1	  	0	
+  0		0     		1     		0	  	1	
+%
+  1		0		0		1		0	
+  0     	1     		0     		0	  	1		
+  0     	1     		0     		1	  	0	
+  0		0     		1     		1	  	0	
+%

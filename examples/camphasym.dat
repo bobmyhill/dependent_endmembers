@@ -1,0 +1,29 @@
+% Independent endmembers
+tr ts parg gl cumm grun camo1 camo2 mrb
+1  1.5 1.7 0.8 1   1    1     1     0.8
+tr fts fparg fgl cumm grun camo1 camo2 mrb
+% Variables
+a c x y z f q r 
+% Site occupancies (q=Q1, r=Q2)
+% vA	NaA	CaM4	NaM4	MgM4	FeM4	MgM13	FeM13	AlM2	Fe3M2	MgM2	FeM2  AlT    SiT
+1-a a c z (1-x)*(1-c-z)-r*(1-y-f)-3*q/2 x*(1-c-z)+r(1-y-f)+3*q/2 1-x+q	x-q	y	f      (1-x+r)*(1-y-f)	(x-r)*(1-y-f) (a/2+f+y+z)/2 1-(a/2+f+y+z)/2
+1     	0 	2	0	0	0	3	0	0	0	2	0      0      4
+1	0	2	0	0	0	3	0	2	0	0	0      2      2
+0	1	2	0	0	0	3	0	1	0	1	0      2      2
+1	0	0	2	0	0	3	0	2	0	0	0      0      4
+1	0	0	0	2	0	3	0	0	0	2	0      0      4
+1	0	0	0	0	2	0	3	0	0	0	2      0      4
+1	0	0	0	0	2	3	0	0	0	0	2      0      4
+1	0	0	0	0	2	0	3	0	0	2	0      0      4
+1	0	0	2	0	0	3	0	0	2	0	0      0      4
+%
+1     	0 	2	0	0	0	3	0	0	0	2	0      0      4
+1	0	2	0	0	0	0	3	2	0	0	0      2      2
+0	1	2	0	0	0	0	3	1	0	0	1      2      2
+1	0	0	2	0	0	0	3	2	0	0	0      0      4
+1	0	0	0	2	0	3	0	0	0	2	0      0      4
+1	0	0	0	0	2	0	3	0	0	0	2      0      4
+1	0	0	0	0	2	3	0	0	0	0	2      0      4
+1	0	0	0	0	2	0	3	0	0	2	0      0      4
+1	0	0	2	0	0	3	0	0	2	0	0      0      4
+%

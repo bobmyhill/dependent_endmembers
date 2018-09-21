@@ -1,0 +1,27 @@
+% Independent endmembers
+py alm gr kho knor maj gfm nagt
+1 1 2.7 1 1 1 1 1
+py gr kho knor maj gfm fmaj nagt
+% Variables
+x z f c n q s
+% Site occupancies
+% MgX	  FeX	  CaX	  NaX	  AlY	  Fe3Y	  CrY	  MgY	  Fe2Y	  SiY
+1-x-z-n+x*z+x*n+n*q-2/3*q*s  x*(1-z-n)+2/3*q*s-n*q  z  n  1-f-c-2*s+3/2*n  f  c  (s-3/2*n)*(1+q-x) (s-3/2*n)*(x-q)
+3	  0	  0	  0	  2	  0	  0       0       0       0
+0	  3	  0	  0	  2	  0	  0       0       0       0
+0	  0	  3	  0	  2	  0	  0       0       0       0
+3	  0	  0	  0	  0	  2	  0       0       0       0
+3	  0	  0	  0	  0	  0	  2       0       0       0
+3	  0	  0	  0	  0	  0	  0       1       0       1
+3	  0	  0	  0	  0	  0	  0       0       1       1
+2	  0	  0	  1	  1	  0	  0       0       0       1
+%
+3	  0	  0	  0	  2	  0	  0       0       0       0
+0	  0	  3	  0	  2	  0	  0       0       0       0
+3	  0	  0	  0	  0	  2	  0       0       0       0
+3	  0	  0	  0	  0	  0	  2       0       0       0
+3	  0	  0	  0	  0	  0	  0       1       0       1
+3	  0	  0	  0	  0	  0	  0       0       1       1
+0	  3	  0	  0	  0	  0	  0	  0	  1	  1
+2	  0	  0	  1	  1	  0	  0       0       0       1
+%

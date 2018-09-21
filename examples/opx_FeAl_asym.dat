@@ -1,0 +1,24 @@
+% Independent endmembers
+en fm fs odi dmgts mots crts
+1 1 1 1.2 1.7 1.7 1.7
+en fm fs odi dfets feots fcrts
+% Variables
+x y q
+% Site occupancies
+% MgM2  FeM2  CaM2  MgM1   FeM1  AlM1  Fe3+M1  CrM1    SiTA        AlTA        SiTB          AlTB  
+  x     0     1-x   1-y    0	 y     0       0       1+(q-y)/2  (y-q)/2      1-(q+y)/2     (q+y)/2
+  1     0     0     1      0	 0     0       0       1           0	       1	     0
+  0     1     0     1      0	 0     0       0       1           0	       1	     0
+  0     1     0     0      1	 0     0       0       1           0	       1	     0
+  0	0     1     1	   0	 0     0       0       1           0	       1	     0
+  1	0     0     0	   0	 1     0       0       0.5	   0.5	       0.5	     0.5
+  1	0     0     0	   0	 0     1       0       0.5	   0.5	       0.5	     0.5
+  1	0     0     0	   0	 0     0       1       0.5	   0.5	       0.5	     0.5
+%
+  1     0     0     1      0	 0     0       0       1           0	       1	     0
+  0     1     0     1      0	 0     0       0       1           0	       1	     0
+  0     1     0     0      1	 0     0       0       1           0	       1	     0
+  0	0     1     1	   0	 0     0       0       1           0	       1	     0
+  0	1     0     0	   0	 1     0       0       0.5	   0.5	       0.5	     0.5
+  0	1     0     0	   0	 0     1       0       0.5	   0.5	       0.5	     0.5
+  0	1     0     0	   0	 0     0       1       0.5	   0.5	       0.5	     0.5
